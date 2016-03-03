@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Exo:400,700);
+
+$body-bg: #ecf0f1;
+$navbar-default-bg: #1abc9c;
+$navbar-default-link-color: #fff;
+$brand-primary: #9b59b6;
+$btn-primary-bg: #1abc9c;
+$btn-default-bg: #fff;
+$jumbotron-bg: #fff;
+$jumbotron-color: #1abc9c;
+$navbar-height: 40px;
+$font-family-sans-serif: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.navbar { border-radius: 0 !important; }
+.lobster_brand { font-family:"Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				  font-size: 200% !important; 
+				  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+				  color: #16a085 !important;}
+.lobster_logo { font-family:"Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.footer {
+    position: fixed;
+    background: #fff;
+    border-style: solid;
+    border-color: #bdc3c7;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 5px;
+    height: 28px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@import 'bootstrap';
