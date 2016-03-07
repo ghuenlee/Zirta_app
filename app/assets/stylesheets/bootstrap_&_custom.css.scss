@@ -4,7 +4,7 @@
 $body-bg: #ecf0f1;
 $navbar-default-bg: #1abc9c;
 $navbar-default-link-color: #fff;
-$brand-primary: #9b59b6;
+$brand-primary: #1abc9c;
 $btn-primary-bg: #1abc9c;
 $btn-default-bg: #fff;
 $jumbotron-bg: #fff;
@@ -14,10 +14,15 @@ $font-family-sans-serif: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .navbar { border-radius: 0 !important; }
 .lobster_brand { font-family:"Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;
-				  font-size: 200% !important; 
+				  font-size: 200% !important;
 				  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 				  color: #16a085 !important;}
 .lobster_logo { font-family:"Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.pale-green {
+	background-color: #1abc9c !important;
+}
+
 .footer {
     position: fixed;
     background: #fff;
@@ -29,9 +34,33 @@ $font-family-sans-serif: "Exo", "Helvetica Neue", Helvetica, Arial, sans-serif;
     bottom: 0;
     width: 100%;
 }
-
+.form-group h2 {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.padding-bot {
+	padding-bottom: 10px;
+}
+.white-bg {
+	background-color: #fff;
+}
+.no-underline a:hover {
+	text-decoration: none;
+}
+.green-sea-text, .green-sea-text a {
+	color: #16a085 !important;
+}
 .center {
     text-align: center;
 }
-
+.float-right{
+	float:right;
+}
+.padded-inline, .padded-inline a {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+.right {
+	text-align: right;
+}
 @import 'bootstrap';
